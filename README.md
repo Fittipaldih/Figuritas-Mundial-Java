@@ -29,23 +29,6 @@ Por último, el sistema debe permitir el intercambio de figuritas entre distinto
 razón, un usuario intenta intercambiar una figurita que no posee o que YA HABIA PEGADO, el sistema debe
 lanzar la excepción “FiguritaNoDisponible”.
 
-Pruebas unitarias a desarrollar:
-
-queSePuedaCrearUnaFigurita
-queSePuedaCrearUnAdministrador
-queSePuedaCrearUnUsuarioFinal
-queUnAdministradorPuedaAgregarUnaFigurita
-queUnUsuarioFinalPuedaAgregarUnaFigurita
-queLasFiguritasAgregadasDeFormaDesordenadaQuedenOrdenadas
-queUnAdministradorNoPuedaAgregarUnaFiguritaExistente
-queUnUsuarioFinalSiPuedaAgregarFiguritasExistentes
-queUnUsuarioFinalPuedaPegarUnaFigurita
-queUnUsuarioFinalNoPuedaPegarUnaFiguritaRepetida
-queSePuedaRealizarElIntercambioDeFiguritasEntreDosUsuariosFinales
-queNoSePuedaIntercambiarUnaFiguritaDeUnUsuarioQueNoLaTenga
-queNoSePuedaIntercambiarUnaFiguritaDeUnUsuarioQueYaLaHayaPegado
-
-
 # World Cup Album 2022 ( Java - In English)
 Project with Java 8 - jUnit - TDD Methodology - Practice - Basic Programming II - UNLAM
 
@@ -76,19 +59,3 @@ figure that had already pasted previously, the system should throw the exception
 Finally, the system must allow the exchange of figurines between different users. if for some
 reason, a user tries to exchange a figurine that he does not own or that HAD ALREADY PASTED, the system must
 throw the exception "FigureNotAvailable".
-
-Unit tests to develop:
-
-thatcancreateafigurine
-thatanadministratorcanbecreated
-thatanendusercanbecreated
-WhatAnAdministratorCanAddAFigurine
-WhatAnEndUserCanAddAFigurine
-LetTheFigurinesAddedOfAnOrderlyWayBeOrdered
-An Admin Cannot Add An Existing Figurine
-WhatAnEndUserIfCanAddExistingFigurines
-ThatAnEndUserCanPasteAFigurine
-ThatAnEndUserCannotPasteARepeatedPicture
-ThatItCanPerformTheExchangeOfFigurinesBetweenTwoEndUsers
-That Cannot Trade A Figurine Of A User Who Does Not Have It
-ThatCan'tSwapAFigurineOfAUserWhichHasAlreadyStuck
