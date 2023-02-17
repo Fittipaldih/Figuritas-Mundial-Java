@@ -1,6 +1,9 @@
 # Figuritas Mundial 2022 ( Java - En Español)
 Proyecto con Java 8 - jUnit - Metodologia TDD - Practica - Programación Basica II - UNLAM
 
+Es un proyecto simple, con la finalidad de realizar prácticas en Java e implementar la metodología TDD 
+¿Que es TDD? Es una metodología de desarrollo cuyo objetivo es crear primero las pruebas y luego escribir el software. Sus siglas en Inglés son: Test Driven Development y en español significa: Desarrollo guiado por pruebas.
+
 Enunciado:
 Desarrollo digital del álbum de figuritas del mundial.
 Cada figurita está compuesta por su código identificatorio, la letra del grupo al que pertenece, la selección,
@@ -31,6 +34,9 @@ lanzar la excepción “FiguritaNoDisponible”.
 
 # World Cup Album 2022 ( Java - In English)
 Project with Java 8 - jUnit - TDD Methodology - Practice - Basic Programming II - UNLAM
+
+It is a simple project, with the purpose of carrying out practices in Java and implementing the TDD methodology
+What is TDD? It is a development methodology whose objective is to first create the tests and then write the software.
 
 Statement:
 Digital version of the World Cup Album.
