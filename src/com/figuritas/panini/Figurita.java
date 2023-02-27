@@ -72,7 +72,7 @@ public class Figurita implements Comparable <Figurita>{
 		if ( this.getLetraGrupo().equals(otra.getLetraGrupo()) ) {
 			if(this.seleccion.equals(otra.seleccion)) {
 				return this.numJugador - otra.numJugador;
-			} return this.getLetraGrupo().compareTo(otra.getLetraGrupo());
+			} return this.seleccion.compareTo(otra.seleccion);
 		}return this.getLetraGrupo().compareTo(otra.getLetraGrupo());
 	}
 
